@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootpane" prefHeight="886.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.MainController">
+   <children>
+      <ImageView fitHeight="886.0" fitWidth="1300.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="image/shoot.jpg">
+           </Image>
+           </image>
+      </ImageView>
+       <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="512.0" layoutY="57.0" onContextMenuRequested="#start" onMouseClicked="#start" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="image/Start.jpg">
+           </Image>
+           </image>
+       </ImageView>
+       <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="512.0" layoutY="107.0" onContextMenuRequested="#lead" onMouseClicked="#lead" pickOnBounds="true" preserveRatio="true">
+         <image>
+               <Image url="image/lead.jpg">
+           </Image>
+           </image>   
+       </ImageView>
+       <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="512.0" layoutY="157.0" onContextMenuRequested="#options" onMouseClicked="#options" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="image/Options.jpg">
+           </Image>
+           </image>
+       </ImageView>
+       <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="512.0" layoutY="207.0" onContextMenuRequested="#credits" onMouseClicked="#credits" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="image/Credits.jpg">
+           </Image>
+           </image>
+       </ImageView>
+       <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="512.0" layoutY="257.0" onContextMenuRequested="#exit" onMouseClicked="#exit" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="image/Exit.jpg">
+           </Image>
+           </image>
+       </ImageView>
+        
+   </children>
+</AnchorPane>
