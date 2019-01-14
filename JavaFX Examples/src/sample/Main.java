@@ -36,7 +36,7 @@ public class Main extends Application {
         Group root = new Group();
         Scene theScene = new Scene( root );
         theStage.setScene( theScene );
-        Canvas canvas = new Canvas( 1000, 1000 );
+        Canvas canvas = new Canvas( GameInfo.ScreenWidth.getValue(), GameInfo.ScreenHeight.getValue() );
         root.getChildren().add( canvas );
         GraphicsContext gc = canvas.getGraphicsContext2D();
 
@@ -44,6 +44,14 @@ public class Main extends Application {
             @Override
             public void handle(MouseEvent event) {
                 degree.setValue(Math.toDegrees(Math.atan2( event.getY() - canvas.getHeight()/2, event.getX() - canvas.getWidth()/2)));
+                degree.setValue(degree.getValue()%360);
+            }
+        });
+        theScene.setOnMouseDragged(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                degree.setValue(Math.toDegrees(Math.atan2( event.getY() - canvas.getHeight()/2, event.getX() - canvas.getWidth()/2)));
+                degree.setValue(degree.getValue()%360);
             }
         });
 
@@ -67,7 +75,9 @@ public class Main extends Application {
             }
         });
 
-        Sprite characterSprite = new Sprite("images/sprite.png", canvas.getWidth()/2, canvas.getHeight()/2, 5);
+        Sprite characterSprite = new Sprite("images/sprite.png", canvas.getWidth()/2, canvas.getHeight()/2, 5, 50, 50);
+
+        Map1 mainMap = new Map1(characterSprite.getMapPosX(), characterSprite.getMapPosY(), 0);
 
         final long startNanoTime = System.nanoTime();
 
@@ -82,21 +92,29 @@ public class Main extends Application {
                 gc.setFill( new Color(1, 1, 1, 1.0) );
                 gc.fillRect(0, 0, 1000, 1000);
 
+
+
                 characterSprite.setDegree(degree.getValue());
+                mainMap.setDegree(degree.getValue());
 
                 if (keyInput.contains("W")) {
-                    characterSprite.goFront(degree.getValue());
+                    //characterSprite.goFront(degree.getValue());
+                    mainMap.mapGoFront(degree.getValue());
                 }
                 if (keyInput.contains("A")) {
-                    characterSprite.goLeft(degree.getValue());
+                    //characterSprite.goLeft(degree.getValue());
+                    mainMap.mapGoLeft(degree.getValue());
                 }
                 if (keyInput.contains("S")) {
-                    characterSprite.goBack(degree.getValue());
+                    //characterSprite.goBack(degree.getValue());
+                    mainMap.mapGoBack(degree.getValue());
                 }
                 if (keyInput.contains("D")) {
-                    characterSprite.goRight(degree.getValue());
+                    //characterSprite.goRight(degree.getValue());
+                    mainMap.mapGoRight(degree.getValue());
                 }
 
+                mainMap.render(gc);
                 characterSprite.render(gc);
 
             }

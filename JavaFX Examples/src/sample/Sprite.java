@@ -10,12 +10,14 @@ public class Sprite {
     private double width;
     private double height;
     private double degree;
+    private int mapPosX;
+    private int mapPosY;
 
     /*Need to add some methods like _ collision detection (creating an invisible rectangle obj of width and height around the sprite), shoot method (this can also be added in a separate class)*/
 
 
     //constructor - Shaf
-    public Sprite(String imageURL, double positionX, double positionY, double velocity) {
+    public Sprite(String imageURL, double positionX, double positionY, double velocity, int mapX, int mapY) {
         this.image = new MyImage();
         this.image.makeMyImage(imageURL, 150, 150);
         this.positionX = positionX;
@@ -23,6 +25,8 @@ public class Sprite {
         this.velocity = velocity;
         this.width = 150;
         this.height = 150;
+        this.mapPosX = mapX;
+        this.mapPosY = mapY;
     }
 
     //returns the width of the sprite - Shaf
@@ -33,6 +37,22 @@ public class Sprite {
     //returns the height of the sprite - Shaf
     public double getHeight() {
         return height;
+    }
+
+    public int getMapPosX() {
+        return mapPosX;
+    }
+
+    public void setMapPosX(int mapPosX) {
+        this.mapPosX = mapPosX;
+    }
+
+    public int getMapPosY() {
+        return mapPosY;
+    }
+
+    public void setMapPosY(int mapPosY) {
+        this.mapPosY = mapPosY;
     }
 
     //Sets the degree orientation of the Sprite from x - axis - Shaf
@@ -61,7 +81,6 @@ public class Sprite {
     {
         this.degree = degree;
         double tempDegree = degree + 90;
-        //if(degree>)
         positionX -= velocity * Math.cos(Math.toRadians(tempDegree));
         positionY -= velocity * Math.sin(Math.toRadians(tempDegree));
     }
@@ -74,6 +93,10 @@ public class Sprite {
         positionX += velocity * Math.cos(Math.toRadians(tempDegree));
         positionY += velocity * Math.sin(Math.toRadians(tempDegree));
     }
+
+//    public boolean shouldMove () {
+//        return
+//    }
 
     //Technically draws the sprite in the canvas - Shaf
     public void render(GraphicsContext gc)
