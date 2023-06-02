@@ -1,0 +1,15 @@
+=======
+layer 1
+=======
+0 - nothing
+2 - grassCenter.png
+3 - CastleCenter.png
+
+=======
+layer 2
+=======
+0 - nothing
+1 - box.png
+2 - rockMoss.png
+3 - rockMossAlt.png
+4 - fenceLow.png

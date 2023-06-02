@@ -1,0 +1,494 @@
+#start
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#start:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#option
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#option:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#profile
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#profile:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#credits
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#credits:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#Instructions
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#instructions:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#Instructions
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#Instructions:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#Quit
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#Quit:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#SOUND
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#SOUND:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#SPLUS
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#SPLUS:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#SMINUS
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#SMINUS:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#ON
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#ON:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#OFF
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#OFF:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#OBACK
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#OBACK:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#HOST
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#HOST:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#JOIN
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#JOIN:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#GBACK
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#GBACK:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#JBACK
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#JBACK:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#JOIN1
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#JOIN1:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#ipaddress{
+   -fx-font-family: "Quicksand";
+   -fx-font-size: 18;
+   -fx-padding: 1,1,1,1;
+   -fx-border-color: grey;
+   -fx-border-width: 2;
+   -fx-border-radius: 1;
+   -fx-border: gone;
+   -fx-background-color: transparent;
+   -fx-text-fill: grey;
+}
+#portnumber{
+   -fx-font-family: "Quicksand";
+   -fx-font-size: 18;
+   -fx-padding: 1,1,1,1;
+   -fx-border-color: grey;
+   -fx-border-width: 2;
+   -fx-border-radius: 1;
+   -fx-border: gone;
+   -fx-background-color: transparent;
+   -fx-text-fill: grey;
+}
+#TimeInput{
+   -fx-font-family: "Quicksand";
+   -fx-font-size: 18;
+   -fx-padding: 1,1,1,1;
+   -fx-border-color: grey;
+   -fx-border-width: 2;
+   -fx-border-radius: 1;
+   -fx-border: gone;
+   -fx-background-color: transparent;
+   -fx-text-fill: grey;
+}
+#SetTimeButton
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#SetTimeButton:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#LBACK
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#LBACK:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#IBACK
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#IBACK:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#name{
+   -fx-font-family: "Quicksand";
+   -fx-font-size: 18;
+   -fx-padding: 1,1,1,1;
+   -fx-border-color: grey;
+   -fx-border-width: 2;
+   -fx-border-radius: 1;
+   -fx-border: gone;
+   -fx-background-color: transparent;
+   -fx-text-fill: grey;
+}
+#Save
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#Save:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#forward
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#forward:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#backward
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#backward:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+#Back
+{
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+#Back:hover
+{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}

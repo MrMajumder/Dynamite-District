@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="980.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.Instruct1Controller">
+   <children>
+      <ImageView fitHeight="980.0" fitWidth="980.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/shoot.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="98.0" layoutX="70.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/box.png" />
+         </image>
+      </ImageView>
+      <Text fill="#b3b909" layoutX="70.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BOX OBSTACLE" wrappingWidth="259.6708984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="74.0" fitWidth="98.0" layoutX="144.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/rockMoss.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="98.0" layoutX="70.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/rockMossAlt.png" />
+         </image>
+      </ImageView>
+      <Text fill="#b3b909" layoutX="70.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ROCK OBSTACLES" wrappingWidth="351.6708984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="74.0" fitWidth="98.0" layoutX="64.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/bush.png" />
+         </image>
+      </ImageView>
+      <Text fill="#b3b909" layoutX="64.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BUSH(NOT A OBSTACLE)" wrappingWidth="351.6708984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="74.0" fitWidth="98.0" layoutX="293.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/fenceLong.png" />
+         </image>
+      </ImageView>
+      <Text fill="#d0d902" layoutX="287.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FENCH" wrappingWidth="85.7242431640625">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Button fx:id="IBACK" layoutX="75.0" layoutY="599.0" mnemonicParsing="false" onAction="#back" stylesheets="@FirstPage.css" text="BACK" />
+   </children>
+</AnchorPane>

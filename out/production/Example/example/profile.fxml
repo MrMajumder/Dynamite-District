@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="980.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.ProfileController">
+   <children>
+      <ImageView fitHeight="980.0" fitWidth="980.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/shoot.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="265.0" layoutY="291.0" prefHeight="30.0" prefWidth="42.0" text="Level :" />
+      <TextField fx:id="name" layoutX="286.0" layoutY="198.0" prefHeight="31.0" prefWidth="308.0" stylesheets="@FirstPage.css" />
+      <Text fill="#e6f00c" layoutX="179.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+         <font>
+            <Font size="19.0" />
+         </font></Text>
+      <Button fx:id="Save" layoutX="666.0" layoutY="193.0" mnemonicParsing="false" onAction="#Changes" stylesheets="@FirstPage.css" text="Save" />
+      <Text fill="#eaf200" layoutX="179.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Character Change :">
+         <font>
+            <Font size="19.0" />
+         </font></Text>
+      <Button fx:id="Back" layoutX="183.0" layoutY="371.0" mnemonicParsing="false" onAction="#back" stylesheets="@FirstPage.css" text="Back" />
+      <Button fx:id="forward" layoutX="650.0" layoutY="263.0" mnemonicParsing="false" onAction="#Forward" stylesheets="@FirstPage.css" text="Forward" />
+      <Button fx:id="backward" layoutX="398.0" layoutY="263.0" mnemonicParsing="false" onAction="#Backward" stylesheets="@FirstPage.css" text="Backward" />
+      <Pane fx:id="paneview" layoutX="466.0" layoutY="367.0" prefHeight="246.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="imv" fitHeight="150.0" fitWidth="200.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/sprite.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

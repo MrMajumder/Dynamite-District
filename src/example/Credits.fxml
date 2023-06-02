@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="980.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.CreditsController">
+   <children>
+      
+      <ImageView fitHeight="980.0" fitWidth="980.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+             <Image url="image/shoot.jpg">
+           </Image>
+           </image>
+      </ImageView>
+       <Button fx:id="IBACK" layoutX="75.0" layoutY="855.0" mnemonicParsing="false" onAction="#back" stylesheets="@FirstPage.css" text="BACK" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="71.0" layoutY="534.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/shafayat.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="180.0" fitWidth="149.0" layoutX="75.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/s2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="182.0" layoutX="630.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/paponsir.jpg" />
+         </image>
+      </ImageView>
+       <Text fill="#b22222" layoutX="67.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DEVELOPERS :" wrappingWidth="275.7242431640625">
+           <font>
+               <Font size="33.0" />
+           </font>
+       </Text>
+      <Text fill="WHITE" layoutX="67.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STUDENT ID: 1705072" wrappingWidth="351.6708984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="67.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SAURAV JAJODIA" wrappingWidth="351.6708984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="67.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CSE 1-2, BATCH : 17" wrappingWidth="351.6708984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="67.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BUET" wrappingWidth="351.6708984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="67.0" layoutY="808.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BUET" wrappingWidth="351.6708984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="67.0" layoutY="784.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CSE 1-2, BATCH : 17" wrappingWidth="351.6708984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="67.0" layoutY="729.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SHAFAYAT HOSSAIN MAJUMDER" wrappingWidth="351.6708984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="67.0" layoutY="757.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STUDENT ID: 1705080" wrappingWidth="351.6708984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#b22222" layoutX="558.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUPERVISED BY :" wrappingWidth="275.7242431640625">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="526.0" layoutY="417.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MD. TARIKUL ISLAM PAPON" wrappingWidth="351.6708984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="526.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LECTURER" wrappingWidth="351.6708984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="526.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DEPT. OF CSE, BUET" wrappingWidth="351.6708984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

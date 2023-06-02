@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="980.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.MainController">
+   <children>
+      <ImageView fitHeight="980.0" fitWidth="980.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="image/shoot.jpg">
+           </Image>
+           </image>
+      </ImageView>
+      <Button fx:id="start" layoutX="399.0" layoutY="278.0" mnemonicParsing="false" onAction="#start" prefHeight="43.0" prefWidth="214.0" stylesheets="@FirstPage.css" text="New Game" />
+      <Button fx:id="profile" layoutX="399.0" layoutY="364.0" mnemonicParsing="false" onAction="#profile" prefHeight="43.0" prefWidth="214.0" stylesheets="@FirstPage.css" text="Profile" />
+      <Button fx:id="option" layoutX="399.0" layoutY="321.0" mnemonicParsing="false" onAction="#options" prefHeight="43.0" prefWidth="214.0" stylesheets="@FirstPage.css" text="Options" />
+      <Button fx:id="Instructions" layoutX="399.0" layoutY="407.0" mnemonicParsing="false" onAction="#instruct" prefHeight="43.0" prefWidth="214.0" stylesheets="@FirstPage.css" text="Instructions" />
+      <Button fx:id="credits" layoutX="399.0" layoutY="450.0" mnemonicParsing="false" onAction="#credits" prefHeight="43.0" prefWidth="214.0" stylesheets="@FirstPage.css" text="Credits" />
+      <Button fx:id="Quit" layoutX="399.0" layoutY="490.0" mnemonicParsing="false" onAction="#exit" prefHeight="43.0" prefWidth="214.0" stylesheets="@FirstPage.css" text="Quit" />
+      <Text fx:id="title" layoutX="307.0" layoutY="215.0" text="DYNAMITE DISTRICT" textAlignment="CENTER" wrappingWidth="397.6708984375">
+         <font>
+            <Font name="System Bold Italic" size="38.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.7427184466019418">
+               <stops>
+                  <Stop color="#bfab13" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#ab380e" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <effect>
+            <InnerShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+      </Text>
+        
+   </children>
+</AnchorPane>

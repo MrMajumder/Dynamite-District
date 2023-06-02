@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="980.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.OptionsController">
+   <children>
+       <ImageView fitHeight="980.0" fitWidth="980.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="image/shoot.jpg">
+           </Image>
+           </image>
+       </ImageView>
+      <Button fx:id="SOUND" layoutX="197.0" layoutY="131.0" mnemonicParsing="false" stylesheets="@FirstPage.css" text="SOUND" />
+      <Button fx:id="OFF" layoutX="415.0" layoutY="131.0" mnemonicParsing="false" onAction="#Off" stylesheets="@FirstPage.css" text="OFF" />
+      <Button fx:id="ON" layoutX="322.0" layoutY="131.0" mnemonicParsing="false" onAction="#On" stylesheets="@FirstPage.css" text="ON" />
+      <Button fx:id="SPLUS" layoutX="501.0" layoutY="131.0" mnemonicParsing="false" onAction="#Splus" stylesheets="@FirstPage.css" text="PLUS" />
+      <Button fx:id="SMINUS" layoutX="578.0" layoutY="131.0" mnemonicParsing="false" onAction="#Sminus" stylesheets="@FirstPage.css" text="MINUS" />
+      <Button fx:id="OBACK" layoutX="701.0" layoutY="451.0" mnemonicParsing="false" onAction="#back" stylesheets="@FirstPage.css" text="BACK" />
+   </children>
+</AnchorPane>

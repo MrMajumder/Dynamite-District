@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="980.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.GameStartController">
+   <children>
+      <ImageView fitHeight="980.0" fitWidth="980.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/shoot.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="HOST" layoutX="458.0" layoutY="167.0" mnemonicParsing="false" onAction="#host" stylesheets="@FirstPage.css" text="Host Game" />
+      <Button fx:id="JOIN" layoutX="463.0" layoutY="292.0" mnemonicParsing="false" onAction="#join" stylesheets="@FirstPage.css" text="JoinGame" />
+      <Button fx:id="GBACK" layoutX="679.0" layoutY="406.0" mnemonicParsing="false" onAction="#back" stylesheets="@FirstPage.css" text="Back" />
+   </children>
+</AnchorPane>

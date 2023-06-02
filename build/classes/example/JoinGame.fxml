@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="980.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.JoinGameController">
+   <children>
+      <ImageView fitHeight="980.0" fitWidth="980.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/shoot.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="ipaddress" layoutX="435.0" layoutY="132.0" promptText="IP Address" stylesheets="@FirstPage.css" />
+      <TextField fx:id="portnumber" layoutX="435.0" layoutY="212.0" promptText="Port Number" stylesheets="@FirstPage.css" />
+      <Button fx:id="JOIN1" layoutX="503.0" layoutY="295.0" mnemonicParsing="false" onAction="#join" stylesheets="@FirstPage.css" text="JOIN" />
+      <Button fx:id="JBACK" layoutX="504.0" layoutY="373.0" mnemonicParsing="false" onAction="#back" stylesheets="@FirstPage.css" text="Back" />
+   </children>
+</AnchorPane>

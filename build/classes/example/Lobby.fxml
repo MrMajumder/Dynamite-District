@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="980.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.LobbyController">
+   <children>
+      <ImageView fitHeight="980.0" fitWidth="980.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/shoot.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#ced618" layoutX="737.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Port Number:1234" wrappingWidth="220.6708984375">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Button fx:id="start" layoutX="841.0" layoutY="127.0" mnemonicParsing="false" onAction="#start" onContextMenuRequested="#start" stylesheets="@FirstPage.css" text="Start Game" />
+      <Button fx:id="LBACK" layoutX="841.0" layoutY="187.0" mnemonicParsing="false" onAction="#back" stylesheets="@FirstPage.css" text="Back" />
+      <Button fx:id="SetTimeButton" layoutX="74.0" layoutY="172.0" mnemonicParsing="false" onAction="#TimeSet" stylesheets="@FirstPage.css" text="SetTime" />
+      <TextField fx:id="TimeInput" layoutX="74.0" layoutY="127.0" prefHeight="31.0" prefWidth="127.0" stylesheets="@FirstPage.css" />
+      <Text fill="#c8e10e" layoutX="74.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose time between 5 to 15 minutes!" wrappingWidth="233.6708984375">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
